@@ -1,8 +1,8 @@
 bottles_count = 99
 
 while bottles_count > 2
-	puts bottles_count.to_s + " bottles of beer on the wall, " + bottles_count.to_s + " bottles of beer."
-	bottles_count = bottles_count - 1
+  puts bottles_count.to_s + " bottles of beer on the wall, " + bottles_count.to_s + " bottles of beer."
+  bottles_count = bottles_count - 1
   puts "Take one down and pass it around, " + bottles_count.to_s + " bottles of beer on the wall."
   puts ""
 end

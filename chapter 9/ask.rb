@@ -1,21 +1,21 @@
 def  ask  question
-	while  true
-		puts  question
-		reply  =  gets.chomp.downcase
-		if  reply  ==  'yes'
-			return true
-		elsif
-			return false
-		else
-			puts  'Please  answer  "yes"  or  "no".'
-		end
-	end
+  while  true
+    puts  question
+    reply  =  gets.chomp.downcase
+    if  reply  ==  'yes'
+      return true
+    elsif
+      return false
+    else
+      puts  'Please  answer  "yes"  or  "no".'
+    end
+  end
 end
 
 
 puts  'Hello,  and  thank  you  for...'
 puts
-ask  'Do  you  like  eating  tacos?'	#    Ignore  this  return  value
+ask  'Do  you  like  eating  tacos?'  #    Ignore  this  return  value
 ask  'Do  you  like  eating  burritos?'        #    And  this  one
 wets_bed  =  ask  'Do  you  wet  the  bed?'    #    Save  this  return  value
 ask  'Do  you  like  eating  chimichangas?'

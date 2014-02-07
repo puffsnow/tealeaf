@@ -12,6 +12,6 @@ puts "Table of Contents".center(total_length)
 puts ""
 
 while chapter_count <= 3
-	puts "Chapter" + chapter_count.to_s.rjust(chapter_num_length) + ":  " + title_array[chapter_count].ljust(title_length) + "page" + page_array[chapter_count].rjust(page_num_length)
-	chapter_count = chapter_count + 1
+  puts "Chapter" + chapter_count.to_s.rjust(chapter_num_length) + ":  " + title_array[chapter_count].ljust(title_length) + "page" + page_array[chapter_count].rjust(page_num_length)
+  chapter_count = chapter_count + 1
 end
